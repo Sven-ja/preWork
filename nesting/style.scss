@@ -1,0 +1,33 @@
+/* SASS nesting */
+$menu-background: lightgrey;
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: $menu-background;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    width: 90px;
+    background-color: #fff;
+
+    &::hover {
+        /* same as .btn::hover */
+        background-color: #1f257f;
+    }
+}

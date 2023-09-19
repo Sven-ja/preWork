@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+nav {
+    ul {
+        margin: 0;
+        list-style: none;
+    }
+
+    a {
+        font-size: 30px;
+    }
+}
+
+p {
+    padding: 15px;
+}
+
+// SASS variables
+
+$font-stack: helvetica, sans-serif;
+$primary-color: darkviolet;
+$background-color: lightblue;
+$title-color: blue;
+
+body {
+    font: 120% $font-stack;
+    color: $primary-color;
+    background-color: $background-color;
+}
+
+h1 {
+    color: $title-color;
+}

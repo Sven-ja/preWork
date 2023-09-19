@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+nav a {
+  font-size: 30px;
+}
+
+p {
+  padding: 15px;
+}
+
+body {
+  font: 120% helvetica, sans-serif;
+  color: darkviolet;
+  background-color: lightblue;
+}
+
+h1 {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
